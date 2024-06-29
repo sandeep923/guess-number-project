@@ -1,0 +1,59 @@
+body{
+    background-image: url("https://img.freepik.com/premium-photo/abstract-image-background-wallpaper-desktop-pc_1135385-46257.jpg?w=826");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+h2 {
+    text-align: center;
+    padding-top: 50px;
+  
+}
+
+.box {
+    text-align: center;
+    height: 500px;
+    backdrop-filter: blur(10px);
+    margin:auto;
+    border-radius: 20px;
+    box-shadow: 5px 5px  20px black;
+    overflow: hidden;
+
+
+}
+
+input {
+    outline: none;
+    background-color: rgba(0, 0, 0, 0.199);
+    border: none;
+    padding: 10px;
+    margin-top:30px;
+    border-radius: 10px;
+    color:white;
+
+}
+
+
+input:focus{
+    background-color: rgba(0, 0, 0, 0.199);
+    color:white
+}
+
+
+
+button{
+    margin-top: 50px;
+    padding: 10px;
+    background-color:brown;
+    border: none;
+    border-radius: 5px !important; 
+    color:white;
+    
+
+}
+
+button:hover{
+   
+    background-color:rgb(19, 18, 18);
+   
+}
